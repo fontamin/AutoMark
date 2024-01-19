@@ -13,11 +13,12 @@ Before running AutoMark:
 - Ensure the input font or Fontforge source file does not contain any mark or mkmk features and anchors. If it does contain advanced mark features or other mark types, they can still works with no interfering (like cursive attachments,etc).
 - Python and FontForge must be installed and accessible in the system's PATH.
 
-To run AutoMark, use the following command:
+To run AutoMark, use the following command(in the same directory of AutoMark.py):
 ```
 fontforge -script Automark.py input_font_path output_font_path
 ```
 (you can use the input and output file name in the same directory of AutoMark.py)
+
 *Note: AutoMark is designed to prevent overwriting the input file; using the same name for input and output will not result in file overwriting(the output file name will give a '-AutoMark' suffix).*
 
 ## Customization
