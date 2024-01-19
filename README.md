@@ -29,4 +29,3 @@ Currently, the script does not have any dependencies outside of Python and FontF
 
 ## License
 AutoMark is released under the MIT License. See the LICENSE file for more details.
-```
