@@ -1357,11 +1357,11 @@ def name_from_unicode_and_form(form,this_glyph):
         return unicode_and_form_to_non_Unicode_glyphname_dict[(form,this_glyph)]
         
 def strok_mid():
-    if font[ff.nameFromUnicode(0x0640)]:
+    try:
         tatweel = font[ff.nameFromUnicode(0x0640)]
         tatweel_height = tatweel.boundingBox()[3]-tatweel.boundingBox()[1]
         return tatweel_height/2
-    else:
+    except TypeError:
         return 0
 
 def BIG_y_extrema(left_limit,right_limit):
