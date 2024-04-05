@@ -1,5 +1,6 @@
-
 # AutoMark
+
+![AutoMark-V 01(beta3)](https://github.com/fontamin/AutoMark/assets/60272266/47e1997c-2da6-4381-96dc-3b8206549a46)
 
 ## Overview
 AutoMark is a Fontforge script designed to simplify the process of adding OpenType mark features(mark to base, mark to ligature, and mark to mark), and placing anchors for Arabic glyphs (on marks, base glyphs, and ligatures). The script using codepoints(instead of glyph names) and even trying to bring a range of predictable non-Unicode glyphs by checking OpenType GSUB features such as `ccmp`, `init`, `medi`, `fina`, `liga`, and `rlig`. AutoMark's functionality is not realted to the number of a glyph's outline contours and/or components.
